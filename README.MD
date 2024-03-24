@@ -8,11 +8,7 @@ This Readme will assist in setting up and configuring the run setup.
 - [Prerequisites](#prerequisites)
 - [Getting Started](#getting-started)
 - [Running UI Tests](#running-ui-tests)
-- [Running API Tests](#running-api-tests)
-- [Running All Tests](#running-all-tests)
-- [Debugging Tests](#debugging-tests)
 - [Allure Report](#allure-report)
-- [License](#license)
 
 ## Introduction
 
