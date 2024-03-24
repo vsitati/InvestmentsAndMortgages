@@ -1,0 +1,17 @@
+# Ignore venv folder
+venv/
+
+# Ignore pytest_cache folder
+.pytest_cache/
+
+# Other typical exclusions
+*.pyc
+__pycache__/
+.DS_Store
+
+# Ignore allure results folder
+allure-results/
+allure-report/
+
+# Ignore results folder 
+test-results
