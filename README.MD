@@ -1,6 +1,6 @@
 # Python WebUI Test Automation For I&M Bank
 
-This Readme will assist in setting up and configuring the run setup
+This Readme will assist in setting up and configuring the run setup.
 
 ## Table of Contents
 
@@ -16,7 +16,7 @@ This Readme will assist in setting up and configuring the run setup
 
 ## Introduction
 
-This Repo is aimed to show how to traverse the I&M website with the help of Playwright
+This Repo is aimed to show how to traverse the I&M website with the help of Playwright.
 
 ## Prerequisites
 
@@ -39,11 +39,11 @@ To get started with Python and Playwright, follow these steps:
 
 1. Clone or download this repository.
 2. Open a terminal and navigate to the project directory.
-3. Create and activate isolated environment by running following commands
+3. Create and activate an isolated environment by running the following commands
 ```shell
 python3 -m venv venv
 ```
-For Linux & Mac run 
+For Linux & Mac, run 
 ```shell
 source venv/bin/activate
 ```
@@ -71,20 +71,20 @@ python3 -m pytest -m webtest tests --browser webkit  --headed --verbose
 
 ## Allure Report
 
-By default test summary will be posted into commandline
+By default, the test summary will be posted into the command line
 
-In order to generate HTML report using Allure reporting framework run tests with `--alluredir` parameter
+To generate an HTML report using the Allure reporting framework, run tests with `--alluredir` parameter
 
 ```shell
 python3 -m pytest -s --alluredir=allure-results tests --browser chromium  --screenshot on --video on --headed --verbose
 ```
 
-And the generate and open report in browser by running
+And the generate and open report in the browser by running
 ```shell
 allure serve -h localhost
 ```
 ``` shell
 npm install -g allure-commandline --save-dev
 ```
-Ensure to run the above command to have Allure reports properly configured.
+Please run the above command to have Allure reports adequately configured.
 
