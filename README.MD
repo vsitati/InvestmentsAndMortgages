@@ -66,7 +66,7 @@ python3 -m pytest -m webtest tests --verbose
 2. Running UI tests in headed mode & specific browser(chromium,firefox,webkit)
 
 ```shell
-python3 -m pytest -m webtest tests --browser webkit  --headed --verbose
+python3 -m pytest -m webtest tests --browser chromium  --headed --verbose
 ```
 
 ## Allure Report
