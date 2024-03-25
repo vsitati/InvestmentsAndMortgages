@@ -51,6 +51,10 @@ venv\Scripts\activate.bat
 ```shell
 pip3 install -r requirements.txt
 ```
+Also, ensure to run the below to have Playwright install its browsers
+```shell
+playwright install
+```
 
 ## Running UI Tests
 
